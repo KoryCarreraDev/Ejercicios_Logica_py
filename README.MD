@@ -32,7 +32,7 @@ Cada archivo debería tener:
 
 Variables, condicionales, bucles simples, operaciones básicas.
 
-- [ ] 01. Suma de dos números — Pide dos números y muestra su suma.
+- [✅] 01. Suma de dos números — Pide dos números y muestra su suma.
 - [ ] 02. Par o Impar — Determina si un número ingresado es par o impar.
 - [ ] 03. Mayor de tres números — Dados tres números, indica cuál es el mayor (sin usar max()).
 - [ ] 04. Tabla de multiplicar — Muestra la tabla de multiplicar de un número del 1 al 10.
