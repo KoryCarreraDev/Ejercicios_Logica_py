@@ -18,7 +18,7 @@ Variables, condicionales, bucles simples, operaciones básicas.
 - [x] 04. Tabla de multiplicar — Muestra la tabla de multiplicar de un número del 1 al 10.
 - [x] 05. Suma del 1 al 100 — Calcula la suma de todos los números del 1 al 100 usando un bucle.
 - [x] 06. Factorial — Calcula el factorial de un número N (ej: 5! = 120).
-- [ ] 07. Contador de vocales — Pide una palabra y cuenta cuántas vocales tiene.
+- [x] 07. Contador de vocales — Pide una palabra y cuenta cuántas vocales tiene.
 - [ ] 08. Promedio — Pide N números y calcula su promedio.
 - [ ] 09. Número invertido — Dado un número (ej: 1234), muéstralo invertido (4321).
 - [ ] 10. FizzBuzz — Imprime del 1 al 100, pero:
