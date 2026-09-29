@@ -2,25 +2,25 @@
 Promedio — Pide N números y calcula su promedio.
 """
 
-def promedio_de_n_numeros(numeros):
+def promedio_de_n_numeros(numeros): #Definimos la función
 
-    cantidad_registros = len(numeros)
-    suma_registros = 0
+    cantidad_registros = len(numeros) #Obtenemos la cantidad de datos del array (empieza desde el 1)
+    suma_registros = 0 #Inicializamos una variable para asignarle valor mas adelante (en 0 para no alterar resultado)
 
-    for let in numeros:
-        suma_registros = suma_registros + let
+    for let in numeros: #Recorremos el array con los numeros del usuario
+        suma_registros = suma_registros + let #Sumamos registro por registro
 
-    promedio = suma_registros / cantidad_registros
+    promedio = suma_registros / cantidad_registros #Se calcula el promedio haciendo total sobre cantidad de registros
 
-    print(promedio)
+    print(promedio) #Se imprime en pantalla
 
-string = input("Ingrese los numeros que desea promediar separados por una coma y un espacio (2, 3): ")
+string = input("Ingrese los numeros que desea promediar separados por una coma y un espacio (2, 3): ") #Se solicita al usuario los numeros
 
-array = string.split(", ")
+array = string.split(", ") #se divide con el patron de ", " para separar los numeros
 
-array_numb = []
+array_numb = [] #Inicializamos un array vacio para luego guardar los strings transformados a numeros
 
-for let in array:
-    array_numb.append(int(let))
+for let in array: #Recorremos el array separado por comas y espacio
+    array_numb.append(int(let)) #Empujamos el string separado transformado en int
 
-promedio_de_n_numeros(array_numb)
+promedio_de_n_numeros(array_numb) #Ejecutamos la función
