@@ -8,26 +8,6 @@ Repositorio personal para practicar lógica de programación, desde lo más bás
 - Practicar sintaxis del lenguaje (TypeScript / Python)
 - Tener un registro de progreso visible
 
-## 📂 Estructura sugerida del repo
-
-logica-ejercicios/
-├── README.md
-├── 01-basico/
-│   ├── 01-suma-dos-numeros.ts
-│   ├── 02-par-o-impar.ts
-│   └── ...
-├── 02-medio/
-│   └── ...
-└── 03-dificil/
-    └── ...
-
-Cada archivo debería tener:
-- El enunciado como comentario arriba
-- Tu solución
-- Casos de prueba (idealmente)
-
----
-
 ## 🟢 Nivel Básico
 
 Variables, condicionales, bucles simples, operaciones básicas.
@@ -37,7 +17,7 @@ Variables, condicionales, bucles simples, operaciones básicas.
 - [x] 03. Mayor de tres números — Dados tres números, indica cuál es el mayor (sin usar max()).
 - [x] 04. Tabla de multiplicar — Muestra la tabla de multiplicar de un número del 1 al 10.
 - [x] 05. Suma del 1 al 100 — Calcula la suma de todos los números del 1 al 100 usando un bucle.
-- [ ] 06. Factorial — Calcula el factorial de un número N (ej: 5! = 120).
+- [x] 06. Factorial — Calcula el factorial de un número N (ej: 5! = 120).
 - [ ] 07. Contador de vocales — Pide una palabra y cuenta cuántas vocales tiene.
 - [ ] 08. Promedio — Pide N números y calcula su promedio.
 - [ ] 09. Número invertido — Dado un número (ej: 1234), muéstralo invertido (4321).
@@ -88,16 +68,6 @@ Recursión, backtracking, algoritmos avanzados, parsing y problemas clásicos de
 - [ ] 33. Permutaciones y subconjuntos — Dado un array, genera todas las permutaciones y todos los subconjuntos.
 - [ ] 34. Detección de ciclos — Dada una lista enlazada, detecta si tiene un ciclo.
 - [ ] 35. Subsecuencia común más larga (LCS) — Programa dinámico clásico.
-
----
-
-## 🧭 Reglas personales
-
-1. No copiar soluciones de internet antes de intentarlo al menos 30 minutos.
-2. Si me trabo, pedir pistas, no la respuesta.
-3. Después de resolverlo "a la fuerza", intentar refactorizarlo más limpio.
-4. Cada ejercicio resuelto = commit propio (feat: ejercicio 05 - suma 1 al 100).
-5. Los tests no son opcionales en nivel medio y difícil.
 
 ---
 
