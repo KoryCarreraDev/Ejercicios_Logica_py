@@ -2,7 +2,9 @@
 Suma de dos números — Pide dos números y muestra su suma.
 """
 
-def suma_de_dos_numeros(num1, num2):
+#Esto ni documentarlo hace falta, que pereza
+
+def suma_de_dos_numeros(num1, num2): 
     return num1 + num2
 
 print("Hola desde Python, porfavor coloque los numeros que desea sumar")
