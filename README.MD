@@ -20,7 +20,7 @@ Variables, condicionales, bucles simples, operaciones básicas.
 - [x] 06. Factorial — Calcula el factorial de un número N (ej: 5! = 120).
 - [x] 07. Contador de vocales — Pide una palabra y cuenta cuántas vocales tiene.
 - [x] 08. Promedio — Pide N números y calcula su promedio.
-- [ ] 09. Número invertido — Dado un número (ej: 1234), muéstralo invertido (4321).
+- [x] 09. Número invertido — Dado un número (ej: 1234), muéstralo invertido (4321).
 - [ ] 10. FizzBuzz — Imprime del 1 al 100, pero:
       - Divisible por 3 → "Fizz"
       - Divisible por 5 → "Buzz"
