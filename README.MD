@@ -26,7 +26,7 @@ Variables, condicionales, bucles simples, operaciones básicas.
       - Divisible por 5 → "Buzz"
       - Divisible por ambos → "FizzBuzz"
 - [x] 11. Calculadora básica — Suma, resta, multiplicación y división usando funciones separadas.
-- [ ] 12. Validar contraseña — Mínimo 8 caracteres, una mayúscula, una minúscula y un número.
+- [x] 12. Validar contraseña — Mínimo 8 caracteres, una mayúscula, una minúscula y un número.
 
 ---
 
