@@ -28,21 +28,21 @@ operacion = input('Ingrese una operacion sencilla (Suma, resta, division y multi
 operadores = ['+', '-', '/', 'x']
 
 #Separar la operacion por signos y conselvar el signo
-array_operación = re.split(r"([+/x-])", operacion)
+array_operacion = re.split(r"([+/x-])", operacion)
 
 #Verificamos la longitud para identificar termino, operador, termino
-if len(array_operación) != 3:
+if len(array_operacion) != 3:
     print("Datos Insuficientes")
     exit()
 
 #Verificamos que el operador sea valido
-if(array_operación[1] not in operadores):
+if(array_operacion[1] not in operadores):
     print("Operación invalida")
     exit()
 
 #tratamos de transformar los terminos en int, si no, lanza excepción
 try:
-    array_ordenado = [int(array_operación[0]), array_operación[1], int(array_operación[2])]
+    array_ordenado = [int(array_operacion[0]), array_operacion[1], int(array_operacion[2])]
 except:
     print('¡Numeros no validos!')
     exit()

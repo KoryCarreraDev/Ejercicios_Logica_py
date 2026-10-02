@@ -8,7 +8,7 @@ def invertir_un_numero(numero): #Definimos la función
     longitud = len(caracteres) - 1 #Calculamos la longitud del array y le restamos 1 para obtener sus indices
     array_ordenado = [] #Inicializamos un array vacio
 
-    for let in caracteres: #recorremos los numeros extraidos
+    for c in caracteres: #recorremos los numeros extraidos
         array_ordenado.append(caracteres[longitud]) #Metemos de atras hacia adelante en el array usando longitud -1
         longitud = longitud - 1 #Restamos 1 a la longitud para obtener el siguiente dato
 

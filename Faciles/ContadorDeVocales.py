@@ -9,9 +9,9 @@ def contar_vocales_palabra(palabra):
     vocales = ["a", "e", "i", "o", "u"] #Definimos las vocales
     vocales_totales = 0 #Inicializamos en 0 una variable donde guardaremos las vocales totales
 
-    for let in letras: #Recorremos letra por letra 
+    for c in letras: #Recorremos letra por letra 
         for x in range(5): #cantidad de indices en el array de vocales (Empezando desde 0)
-            vocales_totales = vocales_totales + 1 if let == vocales[x] else vocales_totales #Si coincide, +1 en vocales totales, si no, conserva el valor
+            vocales_totales = vocales_totales + 1 if c == vocales[x] else vocales_totales #Si coincide, +1 en vocales totales, si no, conserva el valor
     
     print(vocales_totales) #Mostramos en pantalla
 

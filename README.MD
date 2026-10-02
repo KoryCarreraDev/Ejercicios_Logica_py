@@ -2,12 +2,6 @@
 
 Repositorio personal para practicar lógica de programación, desde lo más básico hasta retos que te hacen pensar en serio.
 
-## 📌 Objetivo
-
-- Reforzar lógica antes de saltar a frameworks
-- Practicar sintaxis del lenguaje (TypeScript / Python)
-- Tener un registro de progreso visible
-
 ## 🟢 Nivel Básico
 
 Variables, condicionales, bucles simples, operaciones básicas.
@@ -34,7 +28,7 @@ Variables, condicionales, bucles simples, operaciones básicas.
 
 Strings, arrays, matrices, algoritmos clásicos de ordenamiento y búsqueda.
 
-- [ ] 13. Palíndromo — Verifica si una palabra o frase se lee igual al derecho y al revés (ignora espacios y mayúsculas).
+- [x] 13. Palíndromo — Verifica si una palabra o frase se lee igual al derecho y al revés (ignora espacios y mayúsculas).
 - [ ] 14. Números primos — Muestra todos los números primos entre 1 y N.
 - [ ] 15. Serie Fibonacci — Imprime los primeros N números de la serie (0, 1, 1, 2, 3, 5, 8...).
 - [ ] 16. Ordenamiento burbuja — Implementa el algoritmo de ordenamiento burbuja.
